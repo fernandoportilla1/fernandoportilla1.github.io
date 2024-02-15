@@ -1,27 +1,17 @@
-# Directorio node_modules generado por npm
-node_modules/
-
-# Archivos o directorios generados por el sistema operativo
+# OSX
+#
 .DS_Store
-Thumbs.db
-
-# Archivo generado por Tailwind CSS (si estás usando JIT mode)
-.tailwindcss-debug.log
-
-# Directorio generado por Vite
-dist/
-
-# Configuración de entorno local
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Archivos de respaldo
-*.backup
-*.bak
-*.swp
-*~
-
-# Dependiendo del editor o IDE, puedes agregar archivos específicos que no deseas que Git rastree
-
+.editorconfig
+#
+build/
+client/web/
+logs/
+#
+*.iml
+.idea
+.gradle
+.vscode
+# node.js
+node_modules/
+npm-debug.log
+yarn.lock
