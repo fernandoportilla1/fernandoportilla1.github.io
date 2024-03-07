@@ -94,3 +94,21 @@ Project Title is open-source software licensed under the **[insert license name]
 ## Tests
 
 To run the tests for Project Title, use the following command:
+
+
+### Code Examples
+
+Here are some examples of how to use the code in Project Title:
+
+```javascript
+// Example 1
+const example = require('example');
+console.log(example());
+
+// Example 2
+const example = require('example');
+console.log(example.method());
+
+// Example 3
+const example = require('example');
+console.log(example.property);
