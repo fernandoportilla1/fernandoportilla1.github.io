@@ -1,46 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ejemplo Node.js con Vite y Tailwind CSS</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>Hola, mundo mundo!</h1>
-  <div class="overflow-x-auto">
-  <table class="min-w-full divide-y divide-gray-200">
-    <thead class="bg-gray-50">
-      <tr>
-        <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider border">Title</th>
-        <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider border">Description</th>
-        <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider border">Info</th>
-        <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider border">Acciones</th>
-      </tr>
-    </thead>
-    <tbody class="bg-white divide-y divide-gray-200">
-      <!-- Aquí van tus datos, cada fila representará un conjunto de datos -->
-      <tr>
-        <!-- Títulos -->
-        <td class="px-6 py-4 whitespace-nowrap border">Título del elemento</td>
-        <!-- Descripción con desplazamiento horizontal -->
-        <td class="px-6 py-4 whitespace-normal border">Descripción extensa aquí. Lorem ipsum dolor sit amet, consectetur adipiscing elit...</td>
-        <!-- Información -->
-        <td class="px-6 py-4 whitespace-nowrap border">Información adicional</td>
-        <!-- Acciones -->
-        <td class="px-6 py-4 whitespace-nowrap border">
-          <!-- Aquí irían los botones o acciones -->
-          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            Acción
-          </button>
-        </td>
-      </tr>
-      <!-- Puedes agregar más filas según sea necesario -->
-    </tbody>
-  </table>
-</div>
-
-</div>
-
-</body>
-</html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My GitHub Pages Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+  </head>
+  <body class="bg-gray-100">
+    <header class="text-center py-16 bg-blue-500 text-white">
+      <h1 class="text-4xl">My GitHub Pages Site</h1>
+      <p class="mt-4 text-gray-200">Welcome to my personal website, showcasing my skills and projects as a systems engineer.</p>
+    </header>
+    <nav class="flex justify-center py-12">
+      <ul class="flex space-x-8">
+        <li>
+          <a href="#about" class="text-blue-500 hover:text-blue-700">About</a>
+        </li>
+        <li>
+          <a href="#skills" class="text-blue-500 hover:text-blue-700">Skills</a>
+        </li>
+        <li>
+          <a href="#projects" class="text-blue-500 hover:text-blue-700">Projects</a>
+        </li>
+      </ul>
+    </nav>
+    <section id="about" class="py-16">
+      <h2 class="text-2xl text-blue-500 font-semibold">About Me</h2>
+      <p class="mt-4 text-gray-700">
+        I am a passionate systems engineer with experience in various technologies. I am always eager to learn new things and improve my skills.
+      </p>
+    </section>
+    <section id="skills" class="py-16">
+      <h2 class="text-2xl text-blue-500 font-semibold">My Skills</h2>
+      <ul class="list-disc list-inside text-gray-700 mt-4">
+        <li>Programming languages: Python, Java, C++</li>
+        <li>Web development: HTML, CSS, JavaScript, Tailwind CSS, Alpine.js</li>
+        <li>Cloud computing: AWS, Azure, Google Cloud</li>
+        <li>Databases: MySQL, PostgreSQL, MongoDB</li>
+      </ul>
+    </section>
+    <section id="projects" class="py-16">
+      <h2 class="text-2xl text-blue-500 font-semibold">My Projects</h2>
+      <ul class="list-disc list-inside text-gray-700 mt-4">
+        <li>
+          <a href="#" class="text-blue-500 hover:text-blue-700">Project 1</a>
+        </li>
+        <li>
+          <a href="#" class="text-blue-500 hover:text-blue-700">Project 2</a>
+        </li>
+        <li>
+          <a href="#" class="text-blue-500 hover:text-blue-700">Project 3</a>
+        </li>
+      </ul>
+    </section>
+    <footer class="bg-blue-500 text-white text-center py-8">
+      <p>&copy; 2024 My GitHub Pages Site</p>
